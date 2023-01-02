@@ -1,0 +1,13 @@
+---
+name: greet
+pack: hello_st2
+runner_type: "local-shell-script"
+description: "Greetings from greet.yaml"
+enabled: true
+entry_point: greet.sh
+parameters:
+    greeting:
+        type: string
+        description: "HoHoHo.."
+        required: true
+        position: 1
